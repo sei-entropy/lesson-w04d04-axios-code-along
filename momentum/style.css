@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg {
+    background: url("https://images.unsplash.com/photo-1569493422961-ee22a2e51a07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjk3NTUwfQ")
+      no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #temp {
+    align-self: flex-end;
+    padding: 2%;
+    font: 1.5rem;
+  }
+  
+  #degree {
+    text-align: 4%;
+  }
+  
+  #time {
+    font-size: 3rem;
+    align-self: center;
+  }
+  #time h3 {
+    font-size: 20px;
+    align-self: center;
+  }
+  
+  #quote {
+    text-align: center;
+  }
